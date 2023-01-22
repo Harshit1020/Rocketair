@@ -919,16 +919,44 @@ video{
         font-size: 4.5vw;
         padding: 3vw 4vw;
     }
+    #fleft input{
+
+    width: 70%;
+    height: 15%;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+    }
+    #subscribe{
+
+        width: 20vw;
+        height: 6vw;
+        margin: 3vw 0;
+    }
     #fright #icon h4{
 
        position: absolute;
        right:5%;
-       font-size: 3vw;
+       font-size: 5vw;
         
     } 
     #fright #icon {
        margin-left: -200px;
+       padding: 5vw 0;
+      
      
     } 
+    #fright .icon{
+      
+        width: 8vw;
+        height: 8vw;
+    
+     } 
+     #fright .icon i{
+
+        font-size: 3vw;
+     }
+ 
 
 }
